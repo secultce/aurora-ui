@@ -1,8 +1,8 @@
 // stylelint-disable selector-class-pattern
 
 :root {
-  --docsearch-primary-color: var(--bd-violet);
-  --docsearch-logo-color: var(--bd-violet);
+  --docsearch-primary-color: var(--bd-green);
+  --docsearch-logo-color: var(--bd-green);
 }
 
 @include color-mode(dark, true) {
