@@ -1,0 +1,44 @@
+.card-panel .btn-group-icon span {
+  font-weight: bold;
+}
+
+.card-panel .material-icons {
+  vertical-align: bottom;
+}
+
+.card-panel .fs-1 {
+  font-weight: bold;
+}
+
+.card-panel .top {
+  display: flex;
+  align-items: center;
+}
+
+.card-panel .top div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.card-panel .top span {
+  margin-left: 10px;
+  font-size: 1.4rem;
+}
+
+.card-panel .content {
+  text-align: center;
+}
+
+.card-panel .content .quantity {
+  font-size: 2.6rem;
+  display: block;
+  font-weight: bold;
+}
+
+.card-panel .btn {
+  width: 100%;
+  margin-top: 15px;
+}
