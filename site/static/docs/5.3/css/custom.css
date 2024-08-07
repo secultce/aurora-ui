@@ -1,3 +1,7 @@
+:root {
+  --color-text-grey-1: #1E1E1E;
+}
+
 .card-panel .btn-group-icon span {
   font-weight: bold;
 }
@@ -177,4 +181,50 @@
   overflow: hidden;
   -webkit-line-clamp: 3;
   line-clamp: 3;
+}
+
+.card.intro-card > .row > .side-image {
+  padding-left: 40px;
+  background-size: cover !important;
+  background: linear-gradient(#00000066, #00000066), url('/docs/5.3/assets/img/examples/intro-home.jpeg');
+  display: flex;
+  align-items: center;
+}
+
+.card.intro-card > .row > .side-image .icon-bg-dark {
+  background-color: var(--color-text-grey-1);
+  border-radius: 32px;
+}
+
+.card.intro-card > .row > .side-image .icon-bg-dark i {
+  margin: 20px;
+  scale: 150%;
+}
+
+.card.intro-card > .row > .side-image > span {
+  font-weight: 700;
+  color: white;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.card.intro-card > .row > .side-text {
+  padding: 24px;
+}
+
+.card.intro-card > .row > .side-text a {
+  text-decoration: none;
+}
+
+.card.intro-card > .row > .side-text > .card-body > a > span {
+  text-decoration: none;
+  color: var(--color-text-grey-1);
+  justify-content: end;
+  display: flex;
+  font-weight: 700;
+}
+
+.card.intro-card > .row > .side-text > .card-body .material-icons {
+  padding-left: 5px;
+  scale: 150%;
 }
