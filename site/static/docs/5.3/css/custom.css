@@ -42,3 +42,66 @@
   width: 100%;
   margin-top: 15px;
 }
+
+.btn .material-icons {
+  vertical-align: bottom;
+}
+
+.accordion-permission.accordion, .accordion-permission .accordion-header, .accordion-permission .accordion-item {
+  background-color: transparent;
+  --bs-accordion-bg: unset;
+}
+
+.accordion-permission .accordion-item {
+  border: 0;
+}
+
+.accordion-permission .accordion-body {
+  background-color: var(--bs-gray-300);
+  border-radius: 7px;
+  padding-top: 0;
+}
+
+.accordion-permission p {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.accordion-permission .btn-link {
+  text-decoration: none;
+}
+
+.accordion-permission .accordion-button {
+  display: flex;
+  justify-content: space-between;
+  color: var(--bs-primary);
+  font-weight: bold;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.accordion-permission .accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+.accordion-permission .accordion-button::after {
+  margin-left: unset;
+  content: unset;
+}
+
+.accordion-permission .text::after {
+  border: solid var(--bs-primary);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  content: "";
+  padding: 3px;
+  font-size: 1rem;
+  transform: rotate(45deg);
+  margin-left: 8px;
+  margin-bottom: 3px;
+}
+
+.accordion-permission .collapsed .text:after {
+  transform: rotate(225deg);
+  margin-bottom: 1px;
+}

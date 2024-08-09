@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/docs/5.3/css/custom.css">
+  </head>
+  <body class="container" style="background-color: #EFEFEF;">
+    <div class="row mt-3">
+      <div class="col">
+        <div class="accordion accordion-permission" id="accordionExample">
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div class="text">Permissions</div>
+
+                <div class="actions">
+                  <a class="btn btn-link"> <i class="material-icons text-danger">delete</i> Excluir</a>
+                  <a class="btn btn-primary"> <i class="material-icons">edit</i> Editar</a>
+                </div>
+              </div>
+            </div>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col">
+                    <p class="fw-bold">Oportunidades</p>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="op_add">
+                      <label class="form-check-label" for="op_add">
+                        Adicionar
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="op_remove" checked>
+                      <label class="form-check-label" for="op_remove">
+                        Remover
+                      </label>
+                    </div>
+
+                    <p class="fw-bold">Agentes</p>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="ag_add">
+                      <label class="form-check-label" for="ag_add">
+                        Adicionar
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="ag_remove">
+                      <label class="form-check-label" for="ag_remove">
+                        Remover
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <p class="fw-bold">Usuários</p>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="us_add">
+                      <label class="form-check-label" for="us_add">
+                        Adicionar
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="us_remove">
+                      <label class="form-check-label" for="us_remove">
+                        Remover
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="box">
+<pre>
+  <code lang="html" class="language-html">
+    &lt;link rel="stylesheet" href="/docs/5.3/css/custom.css"&gt;
+
+    &lt;div class="accordion accordion-permission" id="accordionExample"&gt;
+      &lt;div class="accordion-item"&gt;
+        &lt;div class="accordion-header"&gt;
+          &lt;div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"&gt;
+            &lt;div class="text"&gt;Accordion Item #1&lt;/div&gt;
+
+            &lt;div class="actions"&gt;
+              &lt;button class="btn btn-link"&gt; &lt;i class="material-icons text-danger"&gt;delete&lt;/i&gt; Excluir&lt;/button&gt;
+              &lt;button class="btn btn-primary"&gt; &lt;i class="material-icons"&gt;edit&lt;/i&gt; Editar&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample"&gt;
+          &lt;div class="accordion-body"&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  </code>
+</pre>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="/docs/5.3/dist/js/bootstrap.js"></script>
+  </body>
+</html>
