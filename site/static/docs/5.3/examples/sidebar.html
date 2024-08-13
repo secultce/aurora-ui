@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sidebar Component</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/docs/5.3/css/custom.css">
+  </head>
+  <body class="container" style="background-color: #EFEFEF;">
+    <div class="d-flex">
+      <!-- Sidebar -->
+      <div id="sidebar" class="bg-light sidebar-header">
+        <!-- Notificações -->
+        <div class="d-flex align-items-center mb-3">
+          <div class="position-relative ms-3">
+            <i class="material-icons icon-size-1 icon-bg-primary">notifications_none</i>
+            <span class="badge-notification">1</span>
+          </div>
+          <span class="font-title ms-4">Notificações</span>
+        </div>
+
+        <!-- Menu do Painel de Controle -->
+        <p class="font-subtitle">Menu do Painel de Controle</p>
+        <ul class="nav flex-column mb-3">
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">dashboard</i>
+                <span class="font-title ms-4">Painel de Controle</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Inscrições em Oportunidades -->
+        <p class="font-subtitle">Inscrições em Oportunidades</p>
+        <ul class="nav flex-column mb-3">
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-wb-incandescent icon-size-1">wb_incandescent</i>
+                <span class="font-title ms-4">Minhas inscrições</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-wb-incandescent icon-size-1">wb_incandescent</i>
+                <span class="font-title ms-4">Prestações de contas</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Editais e Oportunidades -->
+        <p class="font-subtitle">Editais e Oportunidades</p>
+        <ul class="nav flex-column mb-3">
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-wb-incandescent icon-size-1">wb_incandescent</i>
+                <span class="font-title ms-4">Minhas oportunidades</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-wb-incandescent icon-size-1">wb_incandescent</i>
+                <span class="font-title ms-4">Minhas avaliações</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Gerenciamento de Entidades -->
+        <p class="font-subtitle">Gerenciamento de Entidades</p>
+        <ul class="nav flex-column mb-3">
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">people</i>
+                <span class="font-title ms-4">Meus agentes</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">event</i>
+                <span class="font-title ms-4">Meus eventos</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">apartment</i>
+                <span class="font-title ms-4">Meus espaços</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">article</i>
+                <span class="font-title ms-4">Meus projetos</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Outras Opções -->
+        <p class="font-subtitle">Outras Opções</p>
+        <ul class="nav flex-column mb-3">
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">power</i>
+                <span class="font-title ms-4">Vincular cadastro</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">extension</i>
+                <span class="font-title ms-4">Meus apps</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">settings</i>
+                <span class="font-title ms-4">Conta e privacidade</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Opções de administrador -->
+        <p class="font-subtitle">Opções de administrador</p>
+        <ul class="nav flex-column mb-3">
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">bookmark</i>
+                <span class="font-title ms-4">Selos</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">account_tree</i>
+                <span class="font-title ms-4">Subsites</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">manage_accounts</i>
+                <span class="font-title ms-4">Gestão de usuários</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1">newspaper</i>
+                <span class="font-title ms-4">Gerenciar funções</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Perfil e Sair -->
+        <hr>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1 icon-bg-primary">person</i>
+                <span class="font-title ms-4">Meu perfil</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex align-items-center mb-3">
+              <a href="#" class="centered-icon-text nav-link text-dark">
+                <i class="material-icons icon-size-1 icon-bg-primary">logout</i>
+                <span class="font-title ms-4">Sair da sua conta</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="box">
+<pre>
+  <code lang="html" class="language-html">
+    &lt;link rel="stylesheet" href="/docs/5.3/css/custom.css"&gt;
+
+    &lt;div id="sidebar" class="bg-light p-3 border-end" style="width: 328px;"&gt;
+  &lt;!-- Notificações --&gt;
+  &lt;div class="d-flex align-items-center mb-3"&gt;
+    &lt;div class="position-relative ms-3"&gt;
+      &lt;i class="material-icons icon-size-1 icon-bg-primary"&gt;notifications_none&lt;/i&gt;
+      &lt;span class="badge-notification"&gt;1&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;span class="font-title ms-4"&gt;Notificações&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Menu do Painel de Controle --&gt;
+  &lt;p class="font-subtitle"&gt;Menu do Painel de Controle&lt;/p&gt;
+  &lt;ul class="nav flex-column mb-3"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;dashboard&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Painel de Controle&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;!-- Inscrições em Oportunidades --&gt;
+  &lt;p class="font-subtitle"&gt;Inscrições em Oportunidades&lt;/p&gt;
+  &lt;ul class="nav flex-column mb-3"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-wb-incandescent icon-size-1"&gt;wb_incandescent&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Minhas inscrições&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-wb-incandescent icon-size-1"&gt;wb_incandescent&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Prestações de contas&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;!-- Editais e Oportunidades --&gt;
+  &lt;p class="font-subtitle"&gt;Editais e Oportunidades&lt;/p&gt;
+  &lt;ul class="nav flex-column mb-3"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-wb-incandescent icon-size-1"&gt;wb_incandescent&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Minhas oportunidades&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-wb-incandescent icon-size-1"&gt;wb_incandescent&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Minhas avaliações&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;!-- Gerenciamento de Entidades --&gt;
+  &lt;p class="font-subtitle"&gt;Gerenciamento de Entidades&lt;/p&gt;
+  &lt;ul class="nav flex-column mb-3"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;people&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Meus agentes&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;event&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Meus eventos&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;apartment&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Meus espaços&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;article&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Meus projetos&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;!-- Outras Opções --&gt;
+  &lt;p class="font-subtitle"&gt;Outras Opções&lt;/p&gt;
+  &lt;ul class="nav flex-column mb-3"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;power&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Vincular cadastro&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;extension&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Meus apps&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;settings&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Conta e privacidade&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;!-- Opções de administrador --&gt;
+  &lt;p class="font-subtitle"&gt;Opções de administrador&lt;/p&gt;
+  &lt;ul class="nav flex-column mb-3"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;bookmark&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Selos&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;account_tree&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Subsites&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;manage_accounts&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Gestão de usuários&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1"&gt;newspaper&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Gerenciar funções&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;!-- Perfil e Sair --&gt;
+  &lt;hr&gt;
+  &lt;ul class="nav flex-column"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1 icon-bg-primary"&gt;person&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Meu perfil&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;div class="d-flex align-items-center mb-3"&gt;
+        &lt;a href="#" class="centered-icon-text nav-link text-dark"&gt;
+          &lt;i class="material-icons icon-size-1 icon-bg-primary"&gt;logout&lt;/i&gt;
+          &lt;span class="font-title ms-4"&gt;Sair da sua conta&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+          </code>
+        </pre>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+  </body>
+</html>

@@ -1,5 +1,7 @@
 :root {
   --color-text-grey-1: #1E1E1E;
+  --color-subtitle-gray: #3E3E3E;
+  --font-open-sans: "Open Sans", sans-serif;
 }
 
 .card-panel .btn-group-icon span {
@@ -227,4 +229,61 @@
 .card.intro-card > .row > .side-text > .card-body .material-icons {
   padding-left: 5px;
   scale: 150%;
+}
+
+.sidebar-header {
+  padding: 1rem;
+  border-right: 1px;
+  width: 328px;
+}
+
+.badge-notification {
+  position: absolute;
+  top: 8px;
+  transform: translate(-86%, -50%);
+  padding: 0.25em 0.50em;
+  font-size: 0.70rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--bs-white);
+  text-align: center;
+  border-radius: 10rem;
+  background-color: var(--bs-danger);
+}
+
+.font-title {
+  font-family: var(--font-open-sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14.59px;
+  text-align: center;
+}
+
+.font-subtitle {
+  font-family: var(--font-open-sans);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16.34px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: var(--color-subtitle-gray);
+}
+
+.centered-icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.icon-size-1 {
+  font-size: 1.9rem;
+}
+
+.icon-wb-incandescent {
+  transform: rotate(179deg);
+}
+
+.icon-bg-primary {
+  color: var(--bs-primary);
 }
