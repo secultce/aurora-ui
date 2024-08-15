@@ -5,30 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Oportunidade em Rascunho</title>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/docs/5.3/css/custom.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/docs/5.3/css/custom.css">
 </head>
 <body class="container" style="background-color: #EFEFEF;">
-<div class="row mt-3 justify-content-center">
-  <div class="col-auto">
-    <div class="card draft-card card-panel">
-      <div class="d-flex justify-content-between align-items-center mb-3">
-        <div class="d-flex align-items-center">
+<div class="row mt-3">
+  <div class="col-8">
+    <div class="card draft-card card-body">
+      <div class="row mb-3">
+        <div class="d-flex col-8">
           <img src="../assets/img/examples/secult.jpeg" alt="Secult" class="rounded-circle" width="48" height="48">
           <div class="ms-3">
             <h5 class="title-draft-card">Título da entidade ou oportunidade</h5>
             <small class="subtitle-draft-card">METADADOS RELEVANTES AQUI</small>
           </div>
         </div>
-        <div class="favorite">
-          <i class="material-icons me-1">star_border</i>
-          <span>Favoritar</span>
+        <div class="col-4">
+          <div class="favorite text-end">
+            <i class="material-icons">star_border</i>
+            <span>Favoritar</span>
+          </div>
         </div>
       </div>
-      <div class="d-flex justify-content-between align-items-center mb-3">
-        <div class="d-flex justify-content-between align-items-center mb-3">
+
+      <div class="row align-items-baseline mt-3">
+        <div class="col-5">
           <div class="specific-action-buttons">
             <button class="btn btn-publish-custom me-2">Publicar</button>
             <button class="btn btn-archive-custom me-2">
@@ -40,22 +43,25 @@
               <span>Excluir</span>
             </button>
           </div>
-          <div class="d-flex align-items-center gap-3">
-            <div class="form-check form-switch me-3">
-              <input class="form-check-input" type="checkbox" id="syncSwitch">
-              <label class="form-check-label" for="syncSwitch">Sincronizar</label>
-            </div>
-            <button type="button" class="btn btn-access me-2">
+        </div>
+        <div class="col-7 d-flex align-items-center justify-content-end">
+          <div class="form-check form-switch me-3">
+            <input class="form-check-input" type="checkbox" id="syncSwitch">
+            <label class="form-check-label" for="syncSwitch">Sincronizar</label>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-primary btn-lg me-2">
               Acessar
               <i class="material-icons">chevron_right</i>
             </button>
-            <button type="button" class="btn btn-edit me-2">
+            <button type="button" class="btn btn-primary btn-lg">
               <i class="material-icons">edit</i>
               Editar
             </button>
           </div>
         </div>
       </div>
+    </div>
   </div>
 </div>
 
@@ -64,69 +70,57 @@
   <div class="box">
   <pre>
     <code lang="html" class="language-html">
-      &lt;!doctype html&gt;
-      &lt;html lang="en"&gt;
-      &lt;head&gt;
-        &lt;meta charset="UTF-8"&gt;
-        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-        &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
-        &lt;title&gt;Oportunidade em Rascunho&lt;/title&gt;
-        &lt;link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"&gt;
-        &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"&gt;
-        &lt;link rel="stylesheet" href="/docs/5.3/css/custom.css"&gt;
-        &lt;link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" /&gt;
-      &lt;/head&gt;
-      &lt;body class="container" style="background-color: #EFEFEF;"&gt;
-        &lt;div class="row mt-3 justify-content-center"&gt;
-          &lt;div class="col-auto"&gt;
-            &lt;div class="card draft-card card-panel"&gt;
-              &lt;div class="d-flex justify-content-between align-items-center mb-3"&gt;
-                &lt;div class="d-flex align-items-center"&gt;
-                  &lt;img src="../assets/img/examples/secult.jpeg" alt="Secult" class="rounded-circle" width="48" height="48"&gt;
-                  &lt;div class="ms-3"&gt;
-                    &lt;h5 class="title-draft-card"&gt;Título da entidade ou oportunidade&lt;/h5&gt;
-                    &lt;small class="subtitle-draft-card"&gt;METADADOS RELEVANTES AQUI&lt;/small&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;div class="favorite"&gt;
-                  &lt;i class="material-icons me-1"&gt;star_border&lt;/i&gt;
-                  &lt;span&gt;Favoritar&lt;/span&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-              &lt;div class="d-flex justify-content-between align-items-center mb-3"&gt;
-                &lt;div class="d-flex justify-content-between align-items-center mb-3"&gt;
-                  &lt;div class="specific-action-buttons"&gt;
-                    &lt;button class="btn btn-publish-custom me-2"&gt;Publicar&lt;/button&gt;
-                    &lt;button class="btn btn-archive-custom me-2"&gt;
-                      &lt;img src="../assets/img/examples/box-archive.jpg" alt="Arquivar"&gt;
-                      &lt;span&gt;Arquivar&lt;/span&gt;
-                    &lt;/button&gt;
-                    &lt;button class="btn btn-delete-custom me-2"&gt;
-                      &lt;img src="../assets/img/examples/trash-icon.jpg" alt="Excluir"&gt;
-                      &lt;span&gt;Excluir&lt;/span&gt;
-                    &lt;/button&gt;
-                  &lt;/div&gt;
-                  &lt;div class="d-flex align-items-center gap-3"&gt;
-                    &lt;div class="form-check form-switch me-3"&gt;
-                      &lt;input class="form-check-input" type="checkbox" id="syncSwitch"&gt;
-                      &lt;label class="form-check-label" for="syncSwitch"&gt;Sincronizar&lt;/label&gt;
-                    &lt;/div&gt;
-                    &lt;button type="button" class="btn btn-access me-2"&gt;
-                      Acessar
-                      &lt;i class="material-icons"&gt;chevron_right&lt;/i&gt;
-                    &lt;/button&gt;
-                    &lt;button type="button" class="btn btn-edit me-2"&gt;
-                      &lt;i class="material-icons"&gt;edit&lt;/i&gt;
-                      Editar
-                    &lt;/button&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-  </code>
-</pre>
+&lt;div class="card draft-card card-body"&gt;
+  &lt;div class="row mb-3"&gt;
+    &lt;div class="d-flex col-8"&gt;
+      &lt;img src="../assets/img/examples/secult.jpeg" alt="Secult" class="rounded-circle" width="48" height="48"&gt;
+      &lt;div class="ms-3"&gt;
+        &lt;h5 class="title-draft-card"&gt;Título da entidade ou oportunidade&lt;/h5&gt;
+        &lt;small class="subtitle-draft-card"&gt;METADADOS RELEVANTES AQUI&lt;/small&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-4"&gt;
+      &lt;div class="favorite text-end"&gt;
+        &lt;i class="material-icons"&gt;star_border&lt;/i&gt;
+        &lt;span&gt;Favoritar&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="row align-items-baseline mt-3"&gt;
+    &lt;div class="col-5"&gt;
+      &lt;div class="specific-action-buttons"&gt;
+        &lt;button class="btn btn-publish-custom me-2"&gt;Publicar&lt;/button&gt;
+        &lt;button class="btn btn-archive-custom me-2"&gt;
+          &lt;img src="../assets/img/examples/box-archive.jpg" alt="Arquivar"&gt;
+          &lt;span&gt;Arquivar&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button class="btn btn-delete-custom me-2"&gt;
+          &lt;img src="../assets/img/examples/trash-icon.jpg" alt="Excluir"&gt;
+          &lt;span&gt;Excluir&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-7 d-flex align-items-center justify-content-end"&gt;
+      &lt;div class="form-check form-switch me-3"&gt;
+        &lt;input class="form-check-input" type="checkbox" id="syncSwitch"&gt;
+        &lt;label class="form-check-label" for="syncSwitch"&gt;Sincronizar&lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;button type="button" class="btn btn-outline-primary btn-lg me-2"&gt;
+          Acessar
+          &lt;i class="material-icons"&gt;chevron_right&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;button type="button" class="btn btn-primary btn-lg"&gt;
+          &lt;i class="material-icons"&gt;edit&lt;/i&gt;
+          Editar
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+    </code>
+  </pre>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
