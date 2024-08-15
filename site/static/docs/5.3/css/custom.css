@@ -15,6 +15,12 @@
   --btn-publish-custom-color: rgba(17, 124, 131, 1);
   --white-color: #ffffff;
   --color-subtitle-gray: #3E3E3E;
+  --navlink-home: #22A638;
+  --navlink-opportunity: #E70DCB;
+  --navlink-agent: #F59E00;
+  --navlink-event: #36B39E;
+  --navlink-space: #22A638;
+  --navlink-project: #3199E5;
   --color-moss: #042A2B;
   --font-open-sans: "Open Sans", sans-serif;
 }
@@ -522,4 +528,120 @@ img.rounded-circle {
     margin-top: 30px;
     text-align: center;
   }
+}
+
+.navbar-brand-toogle button {
+  border: none
+}
+
+.navbar {
+  max-height: 90px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand img{
+  width: 17.5625rem;
+  height: 3.5625rem;
+}
+
+.nav-entities {
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+}
+
+.nav-entities li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+  gap: 5px;
+
+}
+
+.nav-entities li a p {
+  font-weight: 700;
+  font-size: 14px;
+  transition: 200ms;
+  color: var(--bs-black);
+}
+
+.nav-item .nav-link .material-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .437rem;
+  border-radius: 50%;
+  color: var(--bs-white);
+  background-color: var(--color-text-grey-1);
+  font-size: 1.2rem;
+  transition: 150ms;
+}
+
+.notifications-login {
+  display: flex;
+  justify-content: center;
+  gap: 4.875rem;
+  align-items: center;
+}
+
+.nav-btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 10.8rem;
+  height: 3rem;
+  border-radius: 4px;
+  background-color: var(--color-text-grey-1);
+  color: var(--bs-white);
+  font-weight: 700;
+}
+
+.nav-item .nav-link.home:hover .material-icons {
+  background-color: var(--navlink-home);
+}
+
+.nav-item .nav-link.home:hover p {
+  color: var(--navlink-home);
+}
+
+.nav-item .nav-link.agent:hover .material-icons {
+  background-color: var(--navlink-agent);
+}
+
+.nav-item .nav-link.agent:hover p {
+  color: var(--navlink-agent);
+}
+
+.nav-item .nav-link.opportunity:hover .material-icons {
+  background-color: var(--navlink-opportunity);
+}
+
+.nav-item .nav-link.opportunity:hover p {
+  color: var(--navlink-opportunity);
+}
+
+.nav-item .nav-link.event:hover .material-icons {
+  background-color: var(--navlink-event);
+}
+
+.nav-item .nav-link.event:hover p {
+  color: var(--navlink-event);
+}
+
+.nav-item .nav-link.space:hover .material-icons {
+  background-color: var(--navlink-space);
+}
+
+.nav-item .nav-link.space:hover p {
+  color: var(--navlink-space);
+}
+
+.nav-item .nav-link.project:hover .material-icons {
+  background-color: var(--navlink-project);
+}
+
+.nav-item .nav-link.project:hover p {
+  color: var(--navlink-project);
 }
