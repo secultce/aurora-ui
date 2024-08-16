@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Navbar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/docs/5.3/css/custom.css">
+  </head>
+  <body class="container p-3" style="background-color: #EFEFEF;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top px-4 py-4">
+      <div class="container-fluid">
+        <div class="navbar-brand-toogle">
+          <!-- Toggle Btn -->
+          <button class="navbar-toggler" type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="../assets/img/examples/logo.png" alt="">
+          </a>
+        </div>
+
+        <!-- SideBar -->
+        <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <!-- SideBar Header -->
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- SideBar Body -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav nav-entities fs-5 flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link home" aria-current="page" href="#">
+                  <i class="material-icons ">home</i>
+                  <p>Inicio</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link opportunity" aria-current="page" href="#">
+                  <i class="material-icons">lightbulb</i>
+                  <p>Oportunidades</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link agent" aria-current="page" href="#">
+                  <i class="material-icons">group</i>
+                  <p>Agentes</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link event" aria-current="page" href="#">
+                  <i class="material-icons">event</i>
+                  <p>Eventos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link space" aria-current="page" href="#">
+                  <i class="material-icons">domain</i>
+                  <p>Espaços</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link project" aria-current="page" href="#">
+                  <i class="material-icons">article</i>
+                  <p>Projetos</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Login -->
+        <div class="notifications-login">
+            <div class="d-flex align-items-center gap-2">
+                <span class="fw-semibold">Notificações</span>
+                <div class="position-relative">
+                  <i class="material-icons icon-size-1 icon-bg-primary">notifications_none</i>
+                  <span class="badge-notification">1</span>
+                </div>
+              </div>
+            <a href="#login" class="nav-btn-login">Entrar</a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="box" style="margin-top: 150px;">
+      <pre>
+        <code lang="html" class="language-html">
+&lt;link rel="stylesheet" href="/docs/5.3/css/custom.css"&gt;
+
+&lt;nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top px-4 py-4"&gt;
+  &lt;div class="container-fluid"&gt;
+    &lt;div class="navbar-brand-toogle"&gt;
+        &lt;button class="navbar-toggler" type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+        &gt;
+          &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+
+        &lt;a class="navbar-brand" href="#"&gt;
+          &lt;img src="../assets/img/examples/logo.png" alt=""&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"&gt;
+        &lt;div class="offcanvas-header"&gt;
+          &lt;h5 class="offcanvas-title" id="offcanvasNavbarLabel"&gt;Offcanvas&lt;/h5&gt;
+          &lt;button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"&gt;&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;div class="offcanvas-body"&gt;
+        &lt;ul class="navbar-nav nav-entities fs-5 flex-grow-1 pe-3"&gt;
+            &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link home" aria-current="page" href="#"&gt;
+                &lt;i class="material-icons "&gt;home&lt;/i&gt;
+                &lt;p&gt;Inicio&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link opportunity" aria-current="page" href="#"&gt;
+                &lt;i class="material-icons"&gt;lightbulb&lt;/i&gt;
+                &lt;p&gt;Oportunidades&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link agent" aria-current="page" href="#"&gt;
+                &lt;i class="material-icons"&gt;group&lt;/i&gt;
+                &lt;p&gt;Agentes&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link event" aria-current="page" href="#"&gt;
+                &lt;i class="material-icons"&gt;event&lt;/i&gt;
+                &lt;p&gt;Eventos&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link space" aria-current="page" href="#"&gt;
+                &lt;i class="material-icons"&gt;domain&lt;/i&gt;
+                &lt;p&gt;Espaços&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-item"&gt;
+            &lt;a class="nav-link project" aria-current="page" href="#"&gt;
+                &lt;i class="material-icons"&gt;article&lt;/i&gt;
+                &lt;p&gt;Projetos&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="notifications-login"&gt;
+        &lt;div class="d-flex align-items-center gap-2"&gt;
+            &lt;span class="fw-semibold"&gt;Notificações&lt;/span&gt;
+            &lt;div class="position-relative"&gt;
+                &lt;i class="material-icons icon-size-1 icon-bg-primary"&gt;notifications_none&lt;/i&gt;
+                &lt;span class="badge-notification"&gt;1&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href="#login" class="nav-btn-login"&gt;Entrar&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+        </code>
+      </pre>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="/docs/5.3/dist/js/bootstrap.js"></script>
+  </body>
+</html>
