@@ -559,7 +559,7 @@ img.rounded-circle {
   color: var(--bs-black);
 }
 
-.nav-item .nav-link .material-icons {
+.navbar-icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -637,4 +637,29 @@ img.rounded-circle {
 
 .nav-item .nav-link.project:hover p {
   color: var(--navlink-project);
+}
+
+.nav-pills .nav-link {
+  color: var(--color-subtitle-gray);
+}
+
+.nav-pills .nav-link.active {
+  color: var(--bs-black);
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-pills .nav-link.active::after {
+  content: '';
+  display: block;
+  width: 75%;
+  height: 6px;
+  background-color: var(--bs-primary);
+  border-radius: 2px;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
 }
