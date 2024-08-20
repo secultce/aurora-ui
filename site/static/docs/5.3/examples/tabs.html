@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tabs Component</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../dist/css/custom.css">
+</head>
+<body class="container" style="background-color: #EFEFEF;">
+  <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Publicados</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Em rascunho</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Concedidos</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="pills-archived-tab" data-bs-toggle="pill" href="#pills-archived" role="tab" aria-controls="pills-archived" aria-selected="false">Arquivados</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="pills-trash-tab" data-bs-toggle="pill" href="#pills-trash" role="tab" aria-controls="pills-trash" aria-selected="false">Lixeira</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">Conteúdo 1</div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">Conteúdo 2</div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">Conteúdo 3</div>
+    <div class="tab-pane fade" id="pills-archived" role="tabpanel" aria-labelledby="pills-archived-tab" tabindex="0">Conteúdo 4</div>
+    <div class="tab-pane fade" id="pills-trash" role="tabpanel" aria-labelledby="pills-trash-tab" tabindex="0">Conteúdo 5</div>
+  </div>
+
+  <br><br>
+
+  <div class="box">
+<pre>
+  <code lang="html" class="language-html">
+    &lt;link rel="stylesheet" href="../dist/css/custom.css"&gt;
+
+    &lt;ul class="nav nav-pills mb-4" id="pills-tab" role="tablist"&gt;
+      &lt;li class="nav-item" role="presentation"&gt;
+        &lt;a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"&gt;Publicados&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item" role="presentation"&gt;
+        &lt;a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"&gt;Em rascunho&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item" role="presentation"&gt;
+        &lt;a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"&gt;Concedidos&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item" role="presentation"&gt;
+        &lt;a class="nav-link" id="pills-archived-tab" data-bs-toggle="pill" href="#pills-archived" role="tab" aria-controls="pills-archived" aria-selected="false"&gt;Arquivados&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item" role="presentation"&gt;
+        &lt;a class="nav-link" id="pills-trash-tab" data-bs-toggle="pill" href="#pills-trash" role="tab" aria-controls="pills-trash" aria-selected="false"&gt;Lixeira&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class="tab-content" id="pills-tabContent"&gt;
+      &lt;div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"&gt;Conteúdo 1&lt;/div&gt;
+      &lt;div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"&gt;Conteúdo 2&lt;/div&gt;
+      &lt;div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"&gt;Conteúdo 3&lt;/div&gt;
+      &lt;div class="tab-pane fade" id="pills-archived" role="tabpanel" aria-labelledby="pills-archived-tab" tabindex="0"&gt;Conteúdo 4&lt;/div&gt;
+      &lt;div class="tab-pane fade" id="pills-trash" role="tabpanel" aria-labelledby="pills-trash-tab" tabindex="0"&gt;Conteúdo 5&lt;/div&gt;
+    &lt;/div&gt;
+  </code>
+</pre>
+  </div>
+
+  <br><br><br>
+
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <div class="d-flex align-items-center mb-3">
+        <a class="centered-icon-text nav-link active" id="pills-list-tab" data-bs-toggle="pill" href="#pills-list" role="tab" aria-controls="pills-list" aria-selected="true">
+          <i class="material-icons">list</i>
+          <span class="ms-2 font-title">Lista</span>
+        </a>
+      </div>
+    </li>
+    <li class="nav-item" role="presentation">
+      <div class="d-flex align-items-center mb-3">
+        <a class="centered-icon-text nav-link" id="pills-map-tab" data-bs-toggle="pill" href="#pills-map" role="tab" aria-controls="pills-map" aria-selected="false">
+          <i class="material-icons">map</i>
+          <span class="ms-2 font-title">Mapa</span>
+        </a>
+      </div>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-list" role="tabpanel" aria-labelledby="pills-list-tab" tabindex="0">Conteúdo 1</div>
+    <div class="tab-pane fade" id="pills-map" role="tabpanel" aria-labelledby="pills-map-tab" tabindex="0">Conteúdo 2</div>
+  </div>
+
+  <br><br>
+
+  <div class="box">
+<pre>
+  <code lang="html" class="language-html">
+    &lt;link rel="stylesheet" href="../dist/css/custom.css"&gt;
+
+    &lt;ul class="nav nav-pills mb-3" id="pills-tab" role="tablist"&gt;
+      &lt;li class="nav-item" role="presentation"&gt;
+        &lt;div class="d-flex align-items-center mb-3"&gt;
+          &lt;a class="centered-icon-text nav-link active" id="pills-list-tab" data-bs-toggle="pill" href="#pills-list" role="tab" aria-controls="pills-list" aria-selected="true"&gt;
+            &lt;i class="material-icons"&gt;list&lt;/i&gt;
+            &lt;span class="ms-2 font-title"&gt;Lista&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item" role="presentation"&gt;
+        &lt;div class="d-flex align-items-center mb-3"&gt;
+          &lt;a class="centered-icon-text nav-link" id="pills-map-tab" data-bs-toggle="pill" href="#pills-map" role="tab" aria-controls="pills-map" aria-selected="false"&gt;
+            &lt;i class="material-icons"&gt;map&lt;/i&gt;
+            &lt;span class="ms-2 font-title"&gt;Mapa&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class="tab-content" id="pills-tabContent"&gt;
+      &lt;div class="tab-pane fade show active" id="pills-list" role="tabpanel" aria-labelledby="pills-list-tab" tabindex="0"&gt;Conteúdo 1&lt;/div&gt;
+      &lt;div class="tab-pane fade" id="pills-map" role="tabpanel" aria-labelledby="pills-map-tab" tabindex="0"&gt;Conteúdo 2&lt;/div&gt;
+    &lt;/div&gt;
+  </code>
+</pre>
+  </div>
+
+  <br><br><br>
+
+  <script src="/docs/5.3/dist/js/bootstrap.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+</body>
+</html>
