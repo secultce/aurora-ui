@@ -32,6 +32,7 @@
   --bs-primary: #117c83;
   --bs-secondary: #6c757d;
   --bs-success: #088140;
+  --bs-success-secondary: #64C048;
   --bs-info: #0074c1;
   --bs-warning: #ffb700;
   --bs-danger: #cc333d;
@@ -123,6 +124,8 @@
   --bs-form-valid-border-color: #088140;
   --bs-form-invalid-color: #cc333d;
   --bs-form-invalid-border-color: #cc333d;
+  --bs-rose: #FFAF99;
+  --bs-aqua: #76E5EB
 }
 
 [data-bs-theme=dark] {
@@ -8372,6 +8375,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-success-secondary {
+  --bs-text-opacity: 1;
+  color: var(--bs-success-secondary) !important;
+}
+
 .text-info {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
@@ -8665,6 +8673,21 @@ textarea.form-control-lg {
 .bg-success {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-success-secondary {
+  --bs-bg-opacity: 1;
+  color: var(--bs-success-secondary) !important;
+}
+
+.bg-rose {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-rose) !important;
+}
+
+.bg-aqua {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-aqua) !important;
 }
 
 .bg-info {
