@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cards de Agentes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../dist/css/custom.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
+</head>
+<body class="container" style="background-color: #EFEFEF;">
+
+<div class="agent-card">
+  <div class="agent-card-header">
+    <img src="../assets/img/examples/agent-card-one.png" alt="Foto do agente" class="rounded-circle">
+    <div class="agent-info">
+      <h5 class="agent-name">Alice Nogueira</h5>
+      <span class="agent-type person">
+        <i class="material-icons">person</i> Pessoa
+      </span>
+    </div>
+  </div>
+
+  <div class="agent-card-body">
+    <p class="agent-area"><strong>Áreas de atuação (1):</strong> <span class="agent-sub-area">DESENVOLVIMENTO</span></p>
+    <p class="agent-location"><strong>Localização:</strong> Goiânia (GO)</p>
+    <div class="agent-seals">
+      <p class="seals-area"><strong>Selos:</strong>
+        <span class="seal">Avaliador UFPR</span>
+        <span class="seal">Avaliador UnB</span>
+        <span class="seal">Selo Mapas</span>
+    </div>
+    <p class="agent-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="access-profile-container">
+      <button class="btn btn-primary access-profile">acessar perfil</button>
+    </div>
+  </div>
+</div>
+
+<div class="agent-card">
+  <div class="agent-card-header">
+    <img src="../assets/img/examples/agent-card-two.png" alt="Foto do agente" class="rounded-circle">
+    <div class="agent-info">
+      <h5 class="agent-name">Anne Elisa</h5>
+      <span class="agent-type person">
+        <i class="material-icons">person</i> Pessoa
+      </span>
+    </div>
+  </div>
+
+  <div class="agent-card-body">
+    <p class="agent-area"><strong>Áreas de atuação (3):</strong><span class="agent-sub-area">DESIGN, ARTES VISUAIS, ARTES GRÁFICA</span></p>
+    <div class="location-seals-container">
+      <div class="agent-seals">
+        <p class="seals-area"><strong>Selos:</strong>
+          <span class="seal">Avaliador UFPR</span>
+        </p>
+      </div>
+    </div>
+    <p class="agent-location"><strong>Localização:</strong> Brasília (DF)</p>
+    <p class="agent-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+    <div class="access-profile-container">
+      <button class="btn btn-primary access-profile">Acessar perfil</button>
+    </div>
+  </div>
+</div>
+
+<div class="agent-card">
+  <div class="agent-card-header">
+    <img src="../assets/img/examples/agent-card-three.png" alt="Foto do agente" class="rounded-circle">
+    <div class="agent-info">
+      <h5 class="agent-name">Estúdio de Anne Elisa</h5>
+      <span class="agent-type organization">
+        <i class="material-icons">groups</i> Organização
+      </span>
+    </div>
+  </div>
+
+  <div class="agent-card-body">
+    <p class="agent-area"><strong>Áreas de atuação (1):</strong><span class="agent-sub-area">DESENVOLVIMENTO</span></p>
+    <p class="agent-location"><strong>Localização:</strong> Goiânia (GO)</p>
+    <div class="agent-seals">
+      <p class="seals-area"><strong>Selos:</strong>
+        <span class="seal">Selo Mapas</span>
+    </div>
+    <p class="agent-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+    <div class="access-profile-container">
+      <button class="btn btn-primary access-profile">Acessar perfil</button>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="box" style="width: 45%; margin-right: 20px;">
+  <pre>
+    <code lang="html" class="language-html">
+      &lt;div class="agent-card"&gt;
+        &lt;div class="agent-card-header"&gt;
+          &lt;img src="../assets/img/examples/agent-card1.png" alt="Foto do agente" class="rounded-circle"&gt;
+          &lt;div class="agent-info"&gt;
+            &lt;h5 class="agent-name"&gt;Alice Nogueira&lt;/h5&gt;
+            &lt;span class="agent-type person"&gt;
+              &lt;i class="material-icons"&gt;person&lt;/i&gt; Pessoa
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="agent-card-body"&gt;
+          &lt;p class="agent-area"&gt;&lt;strong&gt;Áreas de atuação (1):&lt;/strong&gt; &lt;span class="agent-sub-area"&gt;DESENVOLVIMENTO&lt;/span&gt;&lt;/p&gt;
+          &lt;p class="agent-location"&gt;&lt;strong&gt;Localização:&lt;/strong&gt; Goiânia (GO)&lt;/p&gt;
+          &lt;div class="agent-seals"&gt;
+            &lt;p class="seals-area"&gt;&lt;strong&gt;Selos:&lt;/strong&gt;
+            &lt;span class="seal"&gt;Avaliador UFPR&lt;/span&gt;
+            &lt;span class="seal"&gt;Avaliador UnB&lt;/span&gt;
+            &lt;span class="seal"&gt;Selo Mapas&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;p class="agent-description"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+          &lt;div class="access-profile-container"&gt;
+            &lt;button class="btn btn-primary access-profile"&gt;acessar perfil&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class="agent-card"&gt;
+        &lt;div class="agent-card-header"&gt;
+          &lt;img src="../assets/img/examples/agent-card2.png" alt="Foto do agente" class="rounded-circle"&gt;
+          &lt;div class="agent-info"&gt;
+            &lt;h5 class="agent-name"&gt;Anne Elisa&lt;/h5&gt;
+            &lt;span class="agent-type person"&gt;
+              &lt;i class="material-icons"&gt;person&lt;/i&gt; Pessoa
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="agent-card-body"&gt;
+          &lt;p class="agent-area"&gt;&lt;strong&gt;Áreas de atuação (3):&lt;/strong&gt;&lt;span class="agent-sub-area"&gt;DESIGN, ARTES VISUAIS, ARTES GRÁFICA&lt;/span&gt;&lt;/p&gt;
+          &lt;div class="location-seals-container"&gt;
+            &lt;div class="agent-seals"&gt;
+              &lt;p class="seals-area"&gt;&lt;strong&gt;Selos:&lt;/strong&gt;
+                &lt;span class="seal"&gt;Avaliador UFPR&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;p class="agent-location"&gt;&lt;strong&gt;Localização:&lt;/strong&gt; Brasília (DF)&lt;/p&gt;
+          &lt;p class="agent-description"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...&lt;/p&gt;
+          &lt;div class="access-profile-container"&gt;
+            &lt;button class="btn btn-primary access-profile"&gt;Acessar perfil&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class="agent-card"&gt;
+        &lt;div class="agent-card-header"&gt;
+          &lt;img src="../assets/img/examples/agent-card3.png" alt="Foto do agente" class="rounded-circle"&gt;
+          &lt;div class="agent-info"&gt;
+            &lt;h5 class="agent-name"&gt;Estúdio de Anne Elisa&lt;/h5&gt;
+            &lt;span class="agent-type organization"&gt;
+              &lt;i class="material-icons"&gt;groups&lt;/i&gt; Organização
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="agent-card-body"&gt;
+          &lt;p class="agent-area"&gt;&lt;strong&gt;Áreas de atuação (1):&lt;/strong&gt;&lt;span class="agent-sub-area"&gt;DESENVOLVIMENTO&lt;/span&gt;&lt;/p&gt;
+          &lt;p class="agent-location"&gt;&lt;strong&gt;Localização:&lt;/strong&gt; Goiânia (GO)&lt;/p&gt;
+          &lt;div class="agent-seals"&gt;
+            &lt;p class="seals-area"&gt;&lt;strong&gt;Selos:&lt;/strong&gt;
+              &lt;span class="seal"&gt;Selo Mapas&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;p class="agent-description"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...&lt;/p&gt;
+          &lt;div class="access-profile-container"&gt;
+            &lt;button class="btn btn-primary access-profile"&gt;Acessar perfil&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+
+    </code>
+  </pre>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
