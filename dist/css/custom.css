@@ -1304,3 +1304,51 @@ img.rounded-circle {
   padding-right: 19px;
   margin-bottom: 15px;
 }
+
+.search-input-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.custom-search-input {
+  border-radius: 50px;
+  border: 1px solid var(--soft-gray);
+  padding-left: 15px;
+  padding-right: 55px;
+  height: 45px;
+  width: 25rem;
+  box-sizing: border-box;
+}
+
+.custom-search-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--main-font-color);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.custom-search-btn {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--main-font-color);
+  cursor: pointer;
+  padding: 0;
+}
+
+.custom-search-btn .material-icons {
+  font-size: 24px;
+  color: var(--btn-primary-bg-color);
+}
