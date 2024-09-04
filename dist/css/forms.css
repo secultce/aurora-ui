@@ -1,0 +1,99 @@
+@import './colors.css';
+
+.form-stepper {
+  width: 35.625rem;
+  border-radius: 4px;
+  background-color: var(--white-color);
+  padding: 1.4375rem 2.5rem;
+}
+
+.form-step {
+  display: none;
+}
+
+.form-step-active {
+  display: block;
+}
+
+.progressbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: steps;
+  margin-bottom: 2rem;
+}
+
+.progressbar::before,
+.progress {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 100%;
+  background-color: var(--mid-gray);
+}
+
+.progress {
+  background-color: var(--progress-form-active);
+  width: 0%;
+  transition: 0.6s;
+}
+
+.progress-step {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--progress-form);
+  color: var(--progress-form-color);
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.progress-step::before {
+  counter-increment: steps;
+  content: counter(steps);
+}
+
+.progress-step-active {
+  background-color: var(--progress-form-active);
+  color: var(--white-color);
+}
+
+.btn-form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-form-group .btn-prev,
+.btn-form-group .btn-next,
+.btn-form-group, .btn-form-submit {
+  height: 3rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.btn-form-group .btn-next,
+.btn-form-group .btn-form-submit {
+  background-color: var(--next-button-form);
+  color: var(--white-color);
+}
+
+.btn-form-group .btn-prev {
+  background-color: var(--prev-button-form);
+  color: var(--white-color);
+}
+
+.btn-form-group .btn-next:hover {
+  background-color: var(--next-button-form);
+}

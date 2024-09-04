@@ -1,0 +1,339 @@
+@import './colors.css';
+
+.sidebar-header {
+  padding: 1rem;
+  border-right: 1px;
+  width: 328px;
+}
+
+.badge-notification {
+  position: absolute;
+  top: 8px;
+  transform: translate(-86%, -50%);
+  padding: 0.25em 0.50em;
+  font-size: 0.70rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--bs-white);
+  text-align: center;
+  border-radius: 10rem;
+  background-color: var(--bs-danger);
+}
+
+.font-title {
+  font-family: var(--font-open-sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14.59px;
+  text-align: center;
+}
+
+.font-subtitle {
+  font-family: var(--font-open-sans);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16.34px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: var(--color-subtitle-gray);
+}
+
+.centered-icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.icon-size-1 {
+  font-size: 1.9rem;
+}
+
+.icon-wb-incandescent {
+  transform: rotate(179deg);
+}
+
+.icon-bg-primary {
+  color: var(--bs-primary);
+}
+
+.navbar-brand-toogle button {
+  border: none;
+}
+
+.navbar {
+  max-height: 90px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand img {
+  width: 17.5625rem;
+  height: 3.5625rem;
+}
+
+.nav-entities {
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+}
+
+.nav-entities li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+  gap: 5px;
+}
+
+.nav-entities li a p {
+  font-weight: 700;
+  font-size: 14px;
+  transition: 200ms;
+  color: var(--bs-black);
+}
+
+.navbar-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .437rem;
+  border-radius: 50%;
+  color: var(--bs-white);
+  background-color: var(--color-text-grey-1);
+  font-size: 1.2rem;
+  transition: 150ms;
+}
+
+.notifications-login {
+  display: flex;
+  justify-content: center;
+  gap: 4.875rem;
+  align-items: center;
+}
+
+.nav-btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 10.8rem;
+  height: 3rem;
+  border-radius: 4px;
+  background-color: var(--color-text-grey-1);
+  color: var(--bs-white);
+  font-weight: 700;
+}
+
+.nav-item .nav-link.home:hover .material-icons {
+  background-color: var(--navlink-home);
+}
+
+.nav-item .nav-link.home:hover p {
+  color: var(--navlink-home);
+}
+
+.nav-item .nav-link.agent:hover .material-icons {
+  background-color: var(--navlink-agent);
+}
+
+.nav-item .nav-link.agent:hover p {
+  color: var(--navlink-agent);
+}
+
+.nav-item .nav-link.opportunity:hover .material-icons {
+  background-color: var(--navlink-opportunity);
+}
+
+.nav-item .nav-link.opportunity:hover p {
+  color: var(--navlink-opportunity);
+}
+
+.nav-item .nav-link.event:hover .material-icons {
+  background-color: var(--navlink-event);
+}
+
+.nav-item .nav-link.event:hover p {
+  color: var(--navlink-event);
+}
+
+.nav-item .nav-link.space:hover .material-icons {
+  background-color: var(--navlink-space);
+}
+
+.nav-item .nav-link.space:hover p {
+  color: var(--navlink-space);
+}
+
+.nav-item .nav-link.project:hover .material-icons {
+  background-color: var(--navlink-project);
+}
+
+.nav-item .nav-link.project:hover p {
+  color: var(--navlink-project);
+}
+
+.nav-pills .nav-link {
+  color: var(--color-subtitle-gray);
+}
+
+.nav-pills .nav-link.active {
+  color: var(--bs-black);
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-pills .nav-link.active::after {
+  content: '';
+  display: block;
+  width: 75%;
+  height: 6px;
+  background-color: var(--bs-primary);
+  border-radius: 2px;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer {
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--bs-white);
+  color: var(--bs-black);
+}
+
+.footer .container {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.footer .container p {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer h5 {
+  font-weight: bold;
+  color: var(--bs-primary);
+}
+
+.footer .social-icons img {
+  align-items: end;
+  margin-right: 5px;
+  width: 1.3rem;
+}
+
+.footer .text-center {
+  padding-bottom: 15px;
+  background-color: var(--color-moss);
+  color: var(--bs-white);
+  font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .footer .justify-content-between {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .social-icons {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+.centered-icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.icon-wb-incandescent {
+  transform: rotate(179deg);
+}
+
+.font-title {
+  font-family: var(--font-open-sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14.59px;
+  text-align: center;
+}
+
+.dashboard-card {
+  background-color: var(--card-bg-color);
+  box-shadow: 0 2px 10px var(--box-shadow-color);
+  border-radius: 5px;
+  padding: 11px;
+  margin: 0 auto;
+}
+
+.dashboard-card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-card .quantity {
+  font-size: 32px;
+  width: 199px;
+  height: 44px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.dashboard-card .content {
+  margin-top: 10px;
+}
+
+.dashboard-card .text {
+  font-size: 1rem;
+  font-family: var(--font-open-sans);
+  color: var(--color-subtitle-gray);
+  margin-top: -15px;
+  display: block;
+  text-align: left;
+}
+
+.custom-gutter {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.custom-gutter .col-md-3 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.lock-icon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  font-size: 24px;
+  color: var(--favorite-icon-color);
+  padding: 10px;
+}
+
+.custom-icon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  font-size: 24px;
+  color: var(--favorite-icon-color);
+  padding: 10px;
+}
+
+.custom-collective-icon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  font-size: 24px;
+  color: var(--favorite-icon-color);
+  padding: 10px;
+}
