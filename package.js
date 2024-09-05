@@ -3,10 +3,10 @@
 /* eslint-env meteor */
 
 Package.describe({
-  name: 'twbs:bootstrap', // https://atmospherejs.com/twbs/bootstrap
-  summary: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
-  version: '5.3.6',
-  git: 'https://github.com/twbs/bootstrap.git'
+  name: 'alessandrofeitoza:aurora-user-interface', // https://atmospherejs.com/twbs/bootstrap
+  summary: 'Based on the most popular front-end framework: Bootstrap.',
+  version: '5.3.8',
+  git: 'https://github.com/secultce/aurora-ui.git'
 })
 
 Package.onUse(api => {
