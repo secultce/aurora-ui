@@ -2,13 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form Stepper</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../dist/css/custom.css">
   </head>
   <body class="container p-3" style="background-color: #EFEFEF;">
@@ -50,12 +49,12 @@
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Confirm Email</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputEmail2" class="form-label">Confirm Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail2">
             </div>
             <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                <label class="form-check-label" for="exampleCheck3">Check me out</label>
             </div>
             <div class="btn-form-group">
                 <a href="#" class="btn btn-prev">Voltar</a>
@@ -65,18 +64,18 @@
 
         <div class="form-step">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Phone</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <label for="exampleInputPhone1" class="form-label">Phone</label>
+                <input type="text" class="form-control" id="exampleInputPhone1" aria-describedby="emailHelp">
+                <div id="phoneHelp" class="form-text">We'll never share your phone with anyone else.</div>
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Nascimento</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputBirth1" class="form-label">Nascimento</label>
+                <input type="text" class="form-control" id="exampleInputBirth1">
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div> 
+                <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                <label class="form-check-label" for="exampleCheck2">Check me out</label>
+              </div>
               <div class="btn-form-group">
                 <a href="#" class="btn btn-prev">Voltar</a>
                 <a href="#" class="btn btn-next">Continuar</a>
@@ -85,17 +84,17 @@
 
         <div class="form-step">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Senha</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="email" class="form-control" id="exampleInputPassword1" aria-describedby="emailHelp">
+                <div id="emailPassword" class="form-text">We'll never share your pasword with anyone else.</div>
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Confirmação de senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputPassword2" class="form-label">Confirmação de senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword2">
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                <label class="form-check-label" for="exampleCheck4">Check me out</label>
               </div>
               <div class="btn-form-group">
                 <a href="#" class="btn btn-prev">Voltar</a>
@@ -108,7 +107,7 @@
 
     <div class="box">
       <pre>
-        <code lang="html" class="language-html">
+        <code class="language-html">
           &lt;link rel="stylesheet" href="../dist/css/custom.css"&gt;
 
           &lt;form class="form-stepper"&gt;
@@ -174,7 +173,7 @@
                   &lt;div class="mb-3 form-check"&gt;
                     &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;
                     &lt;label class="form-check-label" for="exampleCheck1"&gt;Check me out&lt;/label&gt;
-                  &lt;/div&gt; 
+                  &lt;/div&gt;
                   &lt;div class="btn-form-group"&gt;
                     &lt;a href="#" class="btn btn-prev"&gt;Voltar&lt;/a&gt;
                     &lt;a href="#" class="btn btn-next"&gt;Continuar&lt;/a&gt;

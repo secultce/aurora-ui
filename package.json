@@ -1,7 +1,7 @@
 {
-  "name": "mapaculturaldesign",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "version": "5.3.7",
+  "name": "aurora-user-interface",
+  "description": "Based on the most popular front-end framework: Bootstrap.",
+  "version": "5.3.8",
   "config": {
     "version_short": "5.3"
   },
@@ -14,26 +14,16 @@
     "framework",
     "web"
   ],
-  "homepage": "https://getbootstrap.com/",
+  "homepage": "https://aui.secult.ce.gov.br/",
   "author": "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap.git"
+    "url": "git+https://github.com/secultce/aurora-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/secultce/aurora-ui/issues"
   },
-  "funding": [
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/twbs"
-    },
-    {
-      "type": "opencollective",
-      "url": "https://opencollective.com/bootstrap"
-    }
-  ],
   "main": "dist/js/bootstrap.js",
   "module": "dist/js/bootstrap.esm.js",
   "sass": "scss/bootstrap.scss",
