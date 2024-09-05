@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Side Filter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/side-filter.css">
+  </head>
+  <body class="container p-3" style="background-color: #EFEFEF;">
+    <div id="filter-sidebar" class="sidebar">
+      <div class="close-filter">
+        <span>
+          <i class="material-icons text-primary">filter_alt</i>
+          <span class="filter-title">Filtros</span>
+        </span>
+        <i id="close-filter" class="material-icons close-filter-btn">close</i>
+      </div>
+
+      <div class="filter-fields">
+        <div class="form-group">
+          <label for="agent-name" class="filter-label">Nome do agente</label>
+          <input type="text" class="filter-form" id="agent-name" placeholder="Digite">
+        </div>
+
+        <div class="form-group">
+          <label for="agent-type" class="filter-label">Tipo de agente</label>
+          <select class="filter-form" id="agent-type">
+            <option>Selecione</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="areas-of-activity" class="filter-label">Áreas de atuação</label>
+          <select class="filter-form" id="areas-of-activity">
+            <option>Selecione</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="seals" class="filter-label">Selos</label>
+          <select class="filter-form" id="seals">
+            <option>Selecione</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="state" class="filter-label">Estado</label>
+          <select class="filter-form" id="state">
+            <option>Selecione</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="city" class="filter-label">Município</label>
+          <select class="filter-form" id="city">
+            <option>Selecione</option>
+          </select>
+        </div>
+
+        <button id="clear-filters" class="clearFilters">Limpar todos os filtros</button>
+      </div>
+    </div>
+
+
+  <main id="main-content" class="content-agent">
+      <button id="open-filter" class="filter-btn">
+        <i class="material-icons">filter_alt</i>
+      </button>
+
+      <div class="box">
+        <pre>
+          <code class="language-html">
+            &lt;link rel="stylesheet" href="../dist/css/custom.css"&gt;
+
+            &lt;div id="filter-sidebar" class="sidebar"&gt;
+              &lt;div class="close-filter"&gt;
+                &lt;span&gt;
+                  &lt;i class="material-icons text-primary"&gt;filter_alt&lt;/i&gt;
+                  &lt;p&gt;Filtros&lt;/p&gt;
+                &lt;/span&gt;
+                &lt;i id="close-filter" class="material-icons"&gt;close&lt;/i&gt;
+              &lt;/div&gt;
+
+              &lt;div class="filter-fields"&gt;
+                &lt;div class="form-group"&gt;
+                  &lt;label for="agent-name" class="filter-label"&gt;Nome do agente&lt;/label&gt;
+                  &lt;input type="text" class="filter-form" id="agent-name" placeholder="Digite"&gt;
+                &lt;/div&gt;
+
+                &lt;div class="form-group"&gt;
+                  &lt;label for="agent-type" class="filter-label"&gt;Tipo de agente&lt;/label&gt;
+                  &lt;select class="filter-form" id="agent-type"&gt;
+                    &lt;option&gt;Selecione&lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/div&gt;
+
+                &lt;div class="form-group"&gt;
+                  &lt;label for="areas-of-activity" class="filter-label"&gt;Áreas de atuação&lt;/label&gt;
+                  &lt;select class="filter-form" id="areas-of-activity"&gt;
+                    &lt;option&gt;Selecione&lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/div&gt;
+
+                &lt;div class="form-group"&gt;
+                  &lt;label for="seals" class="filter-label"&gt;Selos&lt;/label&gt;
+                  &lt;select class="filter-form" id="seals"&gt;
+                    &lt;option&gt;Selecione&lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/div&gt;
+
+                &lt;div class="form-group"&gt;
+                  &lt;label for="state" class="filter-label"&gt;Estado&lt;/label&gt;
+                  &lt;select class="filter-form" id="state"&gt;
+                    &lt;option&gt;Selecione&lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/div&gt;
+
+                &lt;div class="form-group"&gt;
+                  &lt;label for="city" class="filter-label"&gt;Município&lt;/label&gt;
+                  &lt;select class="filter-form" id="city"&gt;
+                    &lt;option&gt;Selecione&lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/div&gt;
+
+                &lt;button id="clear-filters" class="clearFilters"&gt;Limpar todos os filtros&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+
+          &lt;main id="main-content" class="content-agent"&gt;
+              &lt;button id="open-filter" class="filter-btn"&gt;
+                &lt;i class="material-icons"&gt;filter_alt&lt;/i&gt;
+              &lt;/button&gt;
+          &lt;/main&gt;
+
+          &lt;script src="../dist/js/side-filter.js"&gt;&lt;/script&gt;
+          </code>
+        </pre>
+      </div>
+  </main>
+
+  <script src="../dist/js/side-filter.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+  </body>
+</html>
