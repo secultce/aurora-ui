@@ -1,0 +1,146 @@
+@import './colors.css';
+
+.accordion-permission.accordion,
+.accordion-permission .accordion-header,
+.accordion-permission .accordion-item {
+  background-color: transparent;
+  --bs-accordion-bg: unset;
+}
+
+.accordion-permission .accordion-item {
+  border: 0;
+}
+
+.accordion-permission .accordion-body {
+  background-color: var(--bs-gray-300);
+  border-radius: 7px;
+  padding-top: 0;
+}
+
+.accordion-permission p {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.accordion-permission .btn-link {
+  text-decoration: none;
+}
+
+.accordion-permission .accordion-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--bs-primary);
+  font-weight: bold;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.accordion-permission .accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+.accordion-permission .accordion-button::after {
+  margin-left: unset;
+  content: unset;
+}
+
+.accordion-permission .text::after {
+  border: solid var(--bs-primary);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  content: "";
+  padding: 3px;
+  font-size: 1rem;
+  transform: rotate(45deg);
+  margin-left: 8px;
+  margin-bottom: 3px;
+}
+
+.accordion-permission .collapsed .text:after {
+  transform: rotate(225deg);
+  margin-bottom: 1px;
+}
+
+.accordion-permission .actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.accordion-permission .actions .btn {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-permission .actions .btn i {
+  margin-right: 0.25rem;
+}
+
+.dropdown-header {
+  font-family: var(--font-open-sans);
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px;
+  background-color: var(--card-bg-color);
+  color: var(--main-font-color);
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 1px solid var(--box-shadow-color);
+  margin-bottom: 0;
+}
+
+.dropdown-item-notification {
+  font-family: var(--font-open-sans);
+  padding: 15px 10px;
+  background-color: var(--card-bg-color);
+}
+
+.dropdown-color-link {
+  font-family: var(--font-open-sans);
+  color: var(--btn-access-color);
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.dropdown-color-link:hover {
+  text-decoration: underline;
+}
+
+.dropdown-color-text {
+  color: var(--btn-access-color);
+  font-weight: bold;
+}
+
+.dropdown-color-icon {
+  color: var(--btn-access-color);
+}
+
+.dropdown-help-section {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-text-muted {
+  font-family: var(--font-open-sans);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-notification-dropdown {
+  min-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.custom-notification-header {
+  padding: 20px;
+  background-color: var(--card-bg-color);
+  border-bottom: 1px solid var(--box-shadow-color);
+}
+
+.custom-notification-item {
+  padding: 20px 10px;
+}
+
