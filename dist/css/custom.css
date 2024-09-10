@@ -1,7 +1,9 @@
 @import './colors.css';
 @import './card.css';
 @import './editor.css';
+@import './faq.css';
 @import './forms.css';
 @import './layout.css';
 @import './navigation.css';
+@import './side-filter.css';
 @import './timeline.css';
