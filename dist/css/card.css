@@ -501,3 +501,50 @@ img.rounded-circle {
   height: 66px;
   object-fit: cover;
 }
+
+.card-question {
+  font-family: var(--font-open-sans);
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--white-color);
+  border-radius: 8px;
+  width: 100%;
+  min-height: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin: 20px;
+}
+
+.card-question:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-question-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-question-icon {
+  margin-right: 16px;
+  font-size: 30px;
+  color: var(--next-button-form);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-question-title {
+  font-family: var(--font-open-sans);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--next-button-form);
+}
+
+.card-question-description {
+  font-family: var(--font-open-sans);
+  font-size: 14px;
+  color: var(--color-subtitle-gray);
+  margin: 16px 0 0;
