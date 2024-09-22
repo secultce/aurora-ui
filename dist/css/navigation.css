@@ -1,5 +1,3 @@
-@import './colors.css';
-
 .nav-pills .nav-link {
   color: var(--color-subtitle-gray);
 }

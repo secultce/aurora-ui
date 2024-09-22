@@ -1,12 +1,6 @@
-<p align="center">
-  <a href="https://getbootstrap.com/">
-    <img src="site/static/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200px">
-  </a>
-</p>
+# Aurora UI
 
-# Mapa Cultural Design
-
-<h3 align="center">MapaCultural Design</h3>
+<h3 align="center">Aurora UI</h3>
 
 ## Baseado na Bootstrap 5
 
