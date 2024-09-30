@@ -163,11 +163,11 @@
 }
 
 .nav-item .nav-link.project:hover .material-icons {
-  background-color: var(--navlink-project);
+  background-color: var(--navlink-initiative);
 }
 
 .nav-item .nav-link.project:hover p {
-  color: var(--navlink-project);
+  color: var(--navlink-initiative);
 }
 
 .nav-pills .nav-link {
