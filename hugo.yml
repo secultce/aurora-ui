@@ -57,8 +57,8 @@ params:
   description:          "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."
   authors:              "Mark Otto, Jacob Thornton, and Bootstrap contributors"
 
-  current_version:      "5.3.16"
-  current_ruby_version: "5.3.16"
+  current_version:      "5.3.17"
+  current_ruby_version: "5.3.17"
   docs_version:         "5.3"
   rfs_version:          "v10.0.0"
   github_org:           "https://github.com/secultce"
@@ -79,19 +79,19 @@ params:
     indexName:          "aurora-user-interface"
 
   download:
-    source:             "https://github.com/secultce/aurora-user-interface/archive/v5.3.16.zip"
-    dist:               "https://github.com/secultce/aurora-user-interface/releases/download/v5.3.16/aurora-user-interface-5.3.16-dist.zip"
-    dist_examples:      "https://github.com/secultce/aurora-user-interface/releases/download/v5.3.16/aurora-user-interface-5.3.16-examples.zip"
+    source:             "https://github.com/secultce/aurora-user-interface/archive/v5.3.17.zip"
+    dist:               "https://github.com/secultce/aurora-user-interface/releases/download/v5.3.17/aurora-user-interface-5.3.17-dist.zip"
+    dist_examples:      "https://github.com/secultce/aurora-user-interface/releases/download/v5.3.17/aurora-user-interface-5.3.17-examples.zip"
 
   cdn:
     # See https://www.srihash.org for info on how to generate the hashes
-    css:              "https://cdn.jsdelivr.net/npm/aurora-user-interface@5.3.16/dist/css/bootstrap.min.css"
+    css:              "https://cdn.jsdelivr.net/npm/aurora-user-interface@5.3.17/dist/css/bootstrap.min.css"
     css_hash:         "sha384-/etMxapbOGyigSbnyDwWeNC/IaQQqkaMkKhTY7J0RzPGFOZue7nAOTpS7I3RsoRM"
-    css_rtl:          "https://cdn.jsdelivr.net/npm/aurora-user-interface@5.3.16/dist/css/bootstrap.rtl.min.css"
+    css_rtl:          "https://cdn.jsdelivr.net/npm/aurora-user-interface@5.3.17/dist/css/bootstrap.rtl.min.css"
     css_rtl_hash:     "sha384-rwE+/9rWxvhhBT5ujiHlAXSpK0VQWNT+pWMr7yBEem+2nxn0XZDaO6qk25+o8s4J"
-    js:               "https://cdn.jsdelivr.net/npm/aurora-user-interface@5.3.16/dist/js/bootstrap.min.js"
+    js:               "https://cdn.jsdelivr.net/npm/aurora-user-interface@5.3.17/dist/js/bootstrap.min.js"
     js_hash:          "sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    js_bundle:        "https://cdn.jsdelivr.net/npm/aurora-user-interface@5.3.16/dist/js/bootstrap.bundle.min.js"
+    js_bundle:        "https://cdn.jsdelivr.net/npm/aurora-user-interface@5.3.17/dist/js/bootstrap.bundle.min.js"
     js_bundle_hash:   "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     popper:           "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     popper_hash:      "sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
