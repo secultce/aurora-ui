@@ -1,0 +1,42 @@
+.toast-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 10px;
+}
+
+.snackbar {
+    width: 20.563rem;
+    height: 7.938rem;
+    padding: 1rem 1.125rem;
+}
+
+.snackbar .toast-body {
+    padding: 0;
+}
+  
+.snackbar .icon, 
+.snackbar .btn-close {
+    margin-top: .1875rem;
+}
+
+.snackbar.success {
+    background-color: var(--snackbar-success);
+    color: var(--white-color);
+}
+.snackbar.warning {
+    background-color: var(--snacbar-warning);
+    color: var(--black-color);
+}
+.snackbar.danger {
+    background-color: var(--snackbar-danger);
+    color: var(--white-color);
+}
+.snackbar.info {
+    background-color: var(--snackbar-info);
+    color: var(--white-color);
+}
+.snackbar .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}

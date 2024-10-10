@@ -33,4 +33,8 @@
   --prev-button-form: #56C80C;
   --prev-button-form-hover: #3F51B5;
   --color-orange: #f76c41;
+  --snackbar-success: #559931;
+  --snacbar-warning: #FFCA3A;
+  --snackbar-danger: #D2381B;
+  --snackbar-info: #1774AD;
 }

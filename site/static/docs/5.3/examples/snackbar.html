@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../dist/css/colors.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/snackbar.css">
+  </head>
+  <body class="container" style="background-color: #EFEFEF;">
+
+    <h2 class="my-4">Snackbar exemplos</h2>
+
+    <div class="mb-3">
+      <button type="button" class="btn btn-success" id="showSuccessToast">Success Snackbar</button>
+      <button type="button" class="btn btn-warning" id="showWarningToast">Warning Snackbar</button>
+      <button type="button" class="btn btn-danger" id="showDangerToast">Danger Snackbar</button>
+      <button type="button" class="btn btn-info" id="showInfoToast">Info Snackbar</button>
+    </div>
+
+    <div class="toast-container">
+      <!-- Success Snackbar -->
+      <div class="toast success snackbar" role="alert" aria-live="assertive" aria-atomic="true" id="successToast" data-bs-delay="5000" data-bs-autohide="true">
+        <div class="d-flex">
+          <span class="icon material-icons align-self-start">check_circle</span>
+          <div class="toast-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur adipiscing ultricies pulvinar nullam sodales. Massa.
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+
+      <!-- Warning Snackbar -->
+      <div class="toast warning snackbar" role="alert" aria-live="assertive" aria-atomic="true" id="warningToast" data-bs-delay="5000" data-bs-autohide="true">
+        <div class="d-flex">
+          <span class="icon material-icons">warning</span>
+          <div class="toast-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur adipiscing ultricies pulvinar nullam sodales. Massa.
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+
+      <!-- Danger Snackbar -->
+      <div class="toast danger snackbar" role="alert" aria-live="assertive" aria-atomic="true" id="dangerToast" data-bs-delay="5000" data-bs-autohide="true">
+        <div class="d-flex">
+          <span class="icon material-icons">error</span>
+          <div class="toast-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur adipiscing ultricies pulvinar nullam sodales. Massa.
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+
+      <!-- Info Snackbar -->
+      <div class="toast info snackbar" role="alert" aria-live="assertive" aria-atomic="true" id="infoToast" data-bs-delay="5000" data-bs-autohide="true">
+        <div class="d-flex">
+          <span class="icon material-icons">info</span>
+          <div class="toast-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur adipiscing ultricies pulvinar nullam sodales. Massa.
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="box">
+      <pre>
+        <code class="language-html">
+          &lt;div class="mb-3"&gt;
+            &lt;button type="button" class="btn btn-success" id="showSuccessToast"&gt;Success Snackbar&lt;/button&gt;
+            &lt;button type="button" class="btn btn-warning" id="showWarningToast"&gt;Warning Snackbar&lt;/button&gt;
+            &lt;button type="button" class="btn btn-danger" id="showDangerToast"&gt;Danger Snackbar&lt;/button&gt;
+            &lt;button type="button" class="btn btn-info" id="showInfoToast"&gt;Info Snackbar&lt;/button&gt;
+          &lt;/div&gt;
+
+          &lt;div class="toast-container"&gt;
+            &lt;!-- Success Snackbar --&gt;
+            &lt;div class="toast success snackbar" role="alert" aria-live="assertive" aria-atomic="true" id="successToast" data-bs-delay="5000" data-bs-autohide="true"&gt;
+              &lt;div class="d-flex"&gt;
+                &lt;span class="icon material-icons align-self-start"&gt;check_circle&lt;/span&gt;
+                &lt;div class="toast-body"&gt;
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur adipiscing ultricies pulvinar nullam sodales. Massa.
+                &lt;/div&gt;
+                &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Warning Snackbar --&gt;
+            &lt;div class="toast warning snackbar" role="alert" aria-live="assertive" aria-atomic="true" id="warningToast" data-bs-delay="5000" data-bs-autohide="true"&gt;
+              &lt;div class="d-flex"&gt;
+                &lt;span class="icon material-icons"&gt;warning&lt;/span&gt;
+                &lt;div class="toast-body"&gt;
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur adipiscing ultricies pulvinar nullam sodales. Massa.
+                &lt;/div&gt;
+                &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Danger Snackbar --&gt;
+            &lt;div class="toast danger snackbar" role="alert" aria-live="assertive" aria-atomic="true" id="dangerToast" data-bs-delay="5000" data-bs-autohide="true"&gt;
+              &lt;div class="d-flex"&gt;
+                &lt;span class="icon material-icons"&gt;error&lt;/span&gt;
+                &lt;div class="toast-body"&gt;
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur adipiscing ultricies pulvinar nullam sodales. Massa.
+                &lt;/div&gt;
+                &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Info Snackbar --&gt;
+            &lt;div class="toast info snackbar" role="alert" aria-live="assertive" aria-atomic="true" id="infoToast" data-bs-delay="5000" data-bs-autohide="true"&gt;
+              &lt;div class="d-flex"&gt;
+                &lt;span class="icon material-icons"&gt;info&lt;/span&gt;
+                &lt;div class="toast-body"&gt;
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur adipiscing ultricies pulvinar nullam sodales. Massa.
+                &lt;/div&gt;
+                &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"&gt;&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          <p>Você pode usar os seguintes valores para posicionar os snackbar:</p>
+          <ul>
+            <li>Top left: <strong>top-0 start-0</strong></li>
+            <li>Top center: <strong>top-0 start-50 translate-middle-x</strong></li>
+            <li>Top right: <strong>top-0 end-0</strong></li>
+            <li>Middle left: <strong>top-50 start-0 translate-middle-y</strong></li>
+            <li>Middle center: <strong>top-50 start-50 translate-middle</strong></li>
+            <li>Middle right: <strong>top-50 end-0 translate-middle-y</strong></li>
+            <li>Bottom left: <strong>bottom-0 start-0</strong></li>
+            <li>Bottom center: <strong>bottom-0 start-50 translate-middle-x</strong></li>
+            <li>Bottom right: <strong>bottom-0 end-0</strong></li>
+          </ul>
+        </code>
+      </pre>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="/docs/5.3/dist/js/bootstrap.js"></script>
+    <script src="../dist/js/snackbar.js"></script>
+  </body>
+</html>
