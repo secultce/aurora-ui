@@ -8,6 +8,11 @@ Fizemos um fork do bootstrap para atender as demandas visuais do MapaCultural
 
 Veja o [Projeto Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) para entender a origem desse fork.
 
+## Subindo o projeto
+
+Para subir o projeto, clone o repositório e execute o comando `docker-compose up` na raiz do projeto.
+Isso iniciará um container com o projeto e suas dependências. Acesse a URL do projeto em `http://localhost:9001`.
+
 
 ## Criadores do bootstrap original
 

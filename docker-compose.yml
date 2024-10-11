@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "9001:9001"
+    volumes:
+      - .:/usr/src/app
+    command: npm run docs-serve
+    environment:
+      - NODE_ENV=development
