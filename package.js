@@ -5,7 +5,7 @@
 Package.describe({
   name: 'alessandrofeitoza:aurora-user-interface', // https://atmospherejs.com/twbs/bootstrap
   summary: 'Based on the most popular front-end framework: Bootstrap.',
-  version: '5.3.18',
+  version: '5.3.19',
   git: 'https://github.com/secultce/aurora-ui.git'
 })
 
