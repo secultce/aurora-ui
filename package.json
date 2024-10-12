@@ -1,7 +1,7 @@
 {
   "name": "aurora-user-interface",
   "description": "Based on the most popular front-end framework: Bootstrap.",
-  "version": "5.3.18",
+  "version": "5.3.19",
   "config": {
     "version_short": "5.3"
   },
