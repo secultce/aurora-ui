@@ -364,7 +364,13 @@ img.rounded-circle {
 
 .specific-action-buttons {
   display: flex;
-  gap: 25px;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.specific-action-buttons button {
+  white-space: nowrap;
+  min-width: 100px;
 }
 
 .card.intro-card {
