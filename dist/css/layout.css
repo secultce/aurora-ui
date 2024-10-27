@@ -4,6 +4,28 @@
   width: 328px;
 }
 
+.sidebar-header a {
+  color: var(--color-text);
+}
+
+.sidebar-header li {
+  border-radius: 5px;
+}
+
+.sidebar-header a:hover {
+  color: var(--color-text);
+}
+
+.sidebar-header li:hover {
+  background-color: var(--bs-gray-300);
+  cursor: pointer;
+}
+
+.sidebar-header li.active {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
 .badge-notification {
   position: absolute;
   top: 8px;
