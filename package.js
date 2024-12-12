@@ -5,7 +5,7 @@
 Package.describe({
   name: 'alessandrofeitoza:aurora-user-interface', // https://atmospherejs.com/twbs/bootstrap
   summary: 'Based on the most popular front-end framework: Bootstrap.',
-  version: '5.3.20',
+  version: '5.3.21',
   git: 'https://github.com/secultce/aurora-ui.git'
 })
 
@@ -27,5 +27,6 @@ Package.onUse(api => {
     'dist/css/side-filters.css',
     'dist/js/side-filters.js',
     'dist/css/timeline.css',
+    'dist/css/snackbar.css',
   ], 'client')
 })
