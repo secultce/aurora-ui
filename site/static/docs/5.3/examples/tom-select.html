@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Select</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/docs/5.3/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../dist/css/colors.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tom-select@2.4.1/dist/css/tom-select.css" rel="stylesheet">
+  </head>
+  <body class="container" style="background-color: #EFEFEF;">
+
+    <div class="mt-3">
+        <h3>Select de Multiplos valores</h3>
+        <select id="select-state" name="state[]" multiple placeholder="Selecione um bairro..." autocomplete="off">
+            <option value="">Selecione um bairro...</option>
+            <option value="Amadeu Furtado">Amadeu Furtado</option>
+            <option value="Antônio Bezerra">Antônio Bezerra</option>
+            <option value="Barra do Ceará">Barra do Ceará</option>
+            <option value="Bela Vista">Bela Vista</option>
+            <option value="Benfica">Benfica</option>
+            <option value="Bom Futuro">Bom Futuro</option>
+            <option value="Bom Jardim">Bom Jardim</option>
+            <option value="Bonsucesso">Bonsucesso</option>
+            <option value="Cais do Porto">Cais do Porto</option>
+            <option value="Cajazeiras">Cajazeiras</option>
+            <option value="Cambeba">Cambeba</option>
+            <option value="Canindezinho">Canindezinho</option>
+            <option value="Carlito Pamplona">Carlito Pamplona</option>
+            <option value="Centro">Centro</option>
+            <option value="Cidade 2000">Cidade 2000</option>
+            <option value="Cidade dos Funcionários">Cidade dos Funcionários</option>
+            <option value="Conjunto Ceará I">Conjunto Ceará I</option>
+            <option value="Conjunto Ceará II">Conjunto Ceará II</option>
+            <option value="Conjunto Esperança">Conjunto Esperança</option>
+            <option value="Curió">Curió</option>
+            <option value="Demócrito Rocha">Demócrito Rocha</option>
+            <option value="Dendê">Dendê</option>
+            <option value="Dunas">Dunas</option>
+            <option value="Edson Queiroz">Edson Queiroz</option>
+            <option value="Ellery">Ellery</option>
+            <option value="Engenheiro Luciano Cavalcante">Engenheiro Luciano Cavalcante</option>
+            <option value="Fátima">Fátima</option>
+            <option value="Genibaú">Genibaú</option>
+            <option value="Granja Lisboa">Granja Lisboa</option>
+            <option value="Granja Portugal">Granja Portugal</option>
+            <option value="Guajeru">Guajeru</option>
+            <option value="Henrique Jorge">Henrique Jorge</option>
+            <option value="Itaoca">Itaoca</option>
+            <option value="Itaperi">Itaperi</option>
+            <option value="Jangurussu">Jangurussu</option>
+            <option value="Jardim América">Jardim América</option>
+            <option value="Jardim das Oliveiras">Jardim das Oliveiras</option>
+            <option value="Joaquim Távora">Joaquim Távora</option>
+            <option value="José Bonifácio">José Bonifácio</option>
+            <option value="Lagoa Redonda">Lagoa Redonda</option>
+            <option value="Manuel Sátiro" >Manuel Sátiro</option>
+            <option value="Maraponga">Maraponga</option>
+            <option value="Mondubim">Mondubim</option>
+            <option value="Monte Castelo">Monte Castelo</option>
+            <option value="Parangaba">Parangaba</option>
+            <option value="Parque Araxá">Parque Araxá</option>
+            <option value="Parque Dois Irmãos">Parque Dois Irmãos</option>
+            <option value="Parque Iracema">Parque Iracema</option>
+            <option value="Parque Manibura">Parque Manibura</option>
+            <option value="Parquelândia">Parquelândia</option>
+            <option value="Passaré">Passaré</option>
+            <option value="Paupina">Paupina</option>
+            <option value="Pirambu">Pirambu</option>
+            <option value="Praia de Iracema">Praia de Iracema</option>
+            <option value="Prefeito José Walter">Prefeito José Walter</option>
+            <option value="Presidente Kennedy">Presidente Kennedy</option>
+            <option value="Presidente Vargas">Presidente Vargas</option>
+            <option value="Quintino Cunha">Quintino Cunha</option>
+            <option value="Sabiaguaba">Sabiaguaba</option>
+            <option value="Sapiranga-Coité">Sapiranga-Coité</option>
+            <option value="Serrinha">Serrinha</option>
+            <option value="Serviluz">Serviluz</option>
+            <option value="Siqueira">Siqueira</option>
+            <option value="Tancredo Neves">Tancredo Neves</option>
+            <option value="Vicente Pinzón">Vicente Pinzón</option>
+            <option value="Vila Ellery">Vila Ellery</option>
+            <option value="Vila Peri" >Vila Peri</option>
+            <option value="Vila Velha">Vila Velha</option>
+            <option value="Vila União">Vila União</option>            
+		</select>
+    </div>
+    <div class="box">
+        <pre>
+            <code class="language-html">
+                &lt;select id="select-state" name="state[]" multiple placeholder="Selecione um bairro..." autocomplete="off"&gt;
+                    &lt;option value=""&gt;Selecione um bairro...&lt;/option&gt;
+                    &lt;option value="Vila Peri" selected&gt;Vila Peri&lt;/option&gt;
+                    &lt;option value="Pirambu"&gt;Pirambu&lt;/option&gt;
+                    &lt;option value="Barra do Ceará"&gt;Barra do Ceará&lt;/option&gt;
+                    &lt;option value="Bonsucesso"&gt;Bonsucesso&lt;/option&gt;
+                &lt;/select&gt;
+            </code>
+        </pre>
+        <pre>
+          <code class="language-js">
+            document.addEventListener("DOMContentLoaded", function () {
+              new TomSelect("#select-state",{
+                  plugins: {
+                      remove_button:{
+                          title:'Remover esse item',
+                      },
+                      clear_button:{
+                          title:'Apagar todos itens selecionados',
+                      }
+                  },
+                  maxItems: 3,
+              });
+          });
+          </code>
+        </pre>
+    </div>
+    <div>
+      <h3>Link da documentação e dos plugins que podem ser utilizados conforme sua necessidade</h3>
+      <ul>
+        <li>
+          <a href="https://tom-select.js.org/" target="_blank">Documentação</a>
+        </li>
+        <li>
+          <a href="https://tom-select.js.org/plugins/" target="_blank">Plugins</a>
+      </ul>
+    </div>
+
+    <script src="/docs/5.3/dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tom-select@2.4.1/dist/js/tom-select.complete.min.js"></script>
+    <script src="../dist/js/tom-select.js"></script>   
+  </body>
+</html>
